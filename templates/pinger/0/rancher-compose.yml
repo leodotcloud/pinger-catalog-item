@@ -7,3 +7,9 @@
     required: true
     default: 600
     type: int
+  - variable: RANCHER_DEBUG
+    label: Enable Debug logs
+    description: "To enable very verbose debug logging for the services"
+    required: true
+    default: false
+    type: boolean

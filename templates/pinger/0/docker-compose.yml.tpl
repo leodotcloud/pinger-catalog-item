@@ -9,6 +9,7 @@ services:
       - /var/run/docker.sock:/var/run/docker.sock
     environment:
       - PING_INTERVAL=${PING_INTERVAL}
+      - RANCHER_DEBUG=${RANCHER_DEBUG}
     logging:
       driver: json-file
       options:
