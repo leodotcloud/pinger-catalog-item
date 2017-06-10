@@ -1,0 +1,9 @@
+.catalog:
+  version: dev
+  questions:
+  - variable: PING_INTERVAL
+    label: Ping Interval
+    description: "Amount of time between pinging the containers in seconds"
+    required: true
+    default: 600
+    type: int

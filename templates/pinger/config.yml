@@ -1,0 +1,8 @@
+name: Pinger
+description: |
+  Pinger
+version: dev
+category: Testing
+labels:
+  io.rancher.certified: rancher
+
